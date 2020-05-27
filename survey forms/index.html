@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Survey Form</title>
+	<link rel="stylesheet" type="text/css" href="resources/css/style.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Application For Permission To Date My Daughter</h1>
+		<p><span class="note">Note:</span> Form is to be completed at least 21 days prior to date</p>
+		<form>
+			<fieldset>
+				<legend>Personal Details</legend>
+				<div class="detail">
+					<label for="name">Name:</label>
+					<input type="text" name="user_name" id="name" placeholder="Enter name here">
+				</div>
+				<div class="detail">
+					<label for="address">Adress:</label>
+					<input type="Adress" name="Adress" id="address" placeholder="Enter address">
+				</div>
+				<div class="detail">
+					<label for="email">Email:</label>
+					<input type="email" name="email" id="email">
+				</div>
+				<div class="detail">
+					<label for="phno">Phone Number:</label>
+					<input type="number" name="phno" id="phno">
+				</div>
+				<div class="detail">
+					<label for="iq">IQ:</label>
+					<input type="number" name="iq" id="iq">
+				</div>
+				<div class="detail">
+					<label for="gender">Gender:</label><br>
+					<input type="radio" name="gender" checked>Male<br>
+					<input type="radio" name="gender">Female<br>
+					<input type="radio" name="gender">other
+				</div>
+				<div class="detail">
+					<label for="date">Date of Proposed Outing:</label>
+					<input type="date" name="date" id="date">
+				</div>	
+			</fieldset>
+			<fieldset>
+				<div class="detail">
+					<label for="Gender">Check All That Apply</label>
+				    <p>
+				      <input type="checkbox" name="tattoo" value="tattoo"> I have tattoos and/or piercings<br>
+				      <input type="checkbox" name="age" value="Car"> I am more than 2 years older than my daughter<br>
+				      <input type="checkbox" name="car" value="car"> I own a panel van or V8 ute<br>
+				      <input type="checkbox" name="work" value="work" checked> I work full-time<br>
+				      <input type="checkbox" name="rich" value="rich" checked> My parents are rich<br>
+				      <input type="checkbox" name="loc" value="loc" checked> Is the date at a well lit public location<br>
+				    </p>
+				</div>
+			</fieldset>
+			<fieldset>
+				<div class="detail">
+					<label for="politics">Political Persuasion:</label>
+					<select id="dropdown">
+						<option value="left">Left Wing</option>
+						<option value="right">Right Wing</option>
+						<option value="conservative">Conservative</option>
+						<option value="nazi">Nazi</option>
+					</select>
+				</div>
+			</fieldset>
+			<fieldset>
+				<legend>Essay Section</legend>
+				<div class="detail">
+					<label for="msg"><p>In 50 words or more explain why you want to date my daughter</p></label>
+					<textarea id="msg" name="msg"></textarea>
+				</div>
+				<div class="detail">
+					<p>Upload Police Clearance Certificate, Bank Statement and Medical Certifiates here:
+      				<button>Attach Files</button></p>
+				</div>
+			</fieldset>
+			<div class="sub">
+				<button type="submit" id="submit">Send your application</button></div>
+		</form>
+	</div>
+</body>
+</html>

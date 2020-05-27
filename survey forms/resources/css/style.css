@@ -1,0 +1,55 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-size: 20px;
+	background-color: #fff2cf;
+}
+
+.container{
+	width: 70%;
+	margin: 20px auto;
+	background-color: white;
+	padding: 10px;
+	border-style: solid;
+	border-radius: 10px;
+	border-width: 2px;
+	border-color: #ededed;
+}
+
+h1{
+	font-size: 150%;
+	text-align: center;
+	margin-bottom: 10px
+}
+
+.note{
+	font-weight: bold;
+}
+
+fieldset{
+	padding: 10px;
+}
+
+.detail{
+	margin-bottom: 15px;
+}
+
+textarea{
+	width: 200px;
+	height: 100px;
+}
+
+button{
+	background-color: red;
+	color: white;
+	border: none;
+	padding: 5px;
+}
+
+.sub{
+	text-align: center;
+}
